@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROBLOX TCC Games</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    img {
+      max-width: 90%;
+      height: auto;
+      border: 2px solid #444;
+      box-shadow: 0 0 15px #900;
+    }
+    .upload-box {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #222;
+      display: inline-block;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+    input[type="file"] {
+      background-color: #333;
+      color: #fff;
+      border: 1px solid #666;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="file"]:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ROBLOX TCC GAMES</h1>
+
+  <!-- Твоя картинка -->
+  <img src="e52c89a0-6bd5-4d98-814e-fb4d8fe11e5f.jpg" alt="ROBLOX TCC GAMES">
+
+  <!-- Место для загрузки файла -->
+  <div class="upload-box">
+    <p>Загрузите свой файл:</p>
+    <input type="file" name="file">
+  </div>
+
+</body>
+</html>
